@@ -1,0 +1,61 @@
+# Visual Studio 编译生成文件
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Bb]uild/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Visual Studio 用户特定文件
+*.user
+*.userosscache
+*.sln.docstates
+
+# 临时文件
+*.tmp
+*.temp
+*.tmp_proj
+*_wpftmp.csproj
+
+# 日志文件
+*.log
+*.vspscc
+*.vssscc
+.builds
+
+# 预编译头
+*.pch
+*.pdb
+*.ipch
+*.idb
+*.res
+*.ilk
+*.db
+*.sbr
+*.tlb
+*.tlh
+*.bak
+
+# 打包文件
+*.7z
+*.zip
+*.tar
+
+# 排除所有 exe 和 dll，但保留 SFML 相关库
+!**/SFML/**/*.dll
+!**/SFML/**/*.lib
+!**/SFML/**/*.a
+*.exe
+*.dll
+*.lib
+*.a
+
+# 保留项目配置和 SFML 文件
+!*.vcxproj
+!*.vcxproj.filters
+!*.sln
+!*.props
+!*.targets
+!**/SFML/**
